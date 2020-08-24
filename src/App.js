@@ -1,26 +1,29 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import logo from "./logo.svg";
+import "./App.css";
 
-function App() {
+export default function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
+      <h1> Weather React App</h1>
+      <footer>
+        This project was coded by {" "}
         <a
-          className="App-link"
-          href="https://reactjs.org"
+          href="https://esscodes.wordpress.com/"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Esther Agyare-Boateng
+        </a>{" "}
+        and is {" "}
+        <a
+          href="https://github.com/Ess91/weather-react-project-1"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Open-sourced on Github
         </a>
-      </header>
+      </footer>
     </div>
   );
 }
-
-export default App;
