@@ -8,6 +8,7 @@ export default function Weather() {
     function handleResponse(response) {
         console.log(response.data);
         setTemperature(response.data.main.temp)
+        setReady(true);
     }
 
     if (ready) {
@@ -48,7 +49,7 @@ export default function Weather() {
                   className="float-left"
                 />
                 <div className="float-left">
-                  <span className="temperature">17</span>
+      <span className="temperature">{temperature}</span>
                   <span className="units">°C</span>
                 </div>
               </div>
