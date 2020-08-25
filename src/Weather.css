@@ -1,3 +1,49 @@
 .Weather {
     border: 1px solid grey;
+    padding: 16px;
+ 
+}
+
+.Weather form {
+    margin-bottom: 20px;
+}
+
+.Weather h1{
+    font-size: 38px;
+    font-weight: 100;
+    line-height: 29px;
+}
+
+.Weather ul {
+    margin: 0;
+    padding: 0;
+}
+
+.Weather li {
+    font-size: 16px;
+    font-weight: 100;
+    line-height: 19px;
+    list-style-type: none;
+}
+
+.Weather img {
+    margin-right: 10px;
+    height: 64px;
+    display: inline-block;
+    width: 64px;
+}
+
+.Weather .temperature {
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 64px;
+}
+
+.Weather .units {
+    font-size: 16px;
+    font-weight: 400;
+    position: relative;
+    line-height: 1;
+    top: -34px;
+    margin-left: 3px;
 }
