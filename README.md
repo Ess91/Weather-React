@@ -26,6 +26,10 @@ Find a suitable folder on your local computer for your forked repository and the
 
 ReactJS, HTML & CSS
 
+#### Additional Technologies
+
+OpenWeather API
+
 ### Features
 
 * Search City/Countries' weather
