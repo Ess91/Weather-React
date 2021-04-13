@@ -2,7 +2,7 @@
 
 This is a weather app which allows users to search their chosen city/country which will then show the weather for that searched country. 
 
-![Weather App_Image][
+![Weather App_Image](/public/weather.png)
 
 
 
